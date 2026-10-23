@@ -1,0 +1,63 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    padding: 20px;
+    color: #333;
+}
+
+/* Estilização da tabela */
+
+.tabela-estilizada {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse; /*Remove o espaço duplo entre as bordas da células*/
+    margin: 25px 0;
+    font-size: 16px;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    border-radius:8px 8px 0 0; 
+    overflow: hidden;
+    text-align: center;
+}
+.tabela-estilizada thead tr{
+    background-color: #009879;
+    color: #fff;
+    text-align: center;
+}
+
+/* Espaçamento (padding) dentro de todas as células */
+.tabela-estilizada th,
+.tabela-estilizada td{
+    padding: 15px 20px;
+}
+
+/* Linha separadora na parte inferio de cada linha do corpo */
+.tabela-estilizada tbody tr{
+    border-bottom: 1px solid #ddd;
+}
+/* Efeito Zebrado(nth-of-type):
+ As linhas pares (even) terão um fundo cinza bem claro para facilitar a leitura*/
+ .tabela-estilizada tbody tr:nth-of-type(even){
+    background-color: #f9f9f9;
+ }
+ /* Efeito de hover (quando o mouse passar por cima)*/
+ .tabela-estilizada tbody tr:hover{
+    background-color: #f1f1f1;
+    color: #009879;
+    transition: 0.3s;/*Trasição suave*/
+    cursor:pointer;
+ }
+/*Borda mais grossa no final do corpo da tabela*/
+ .tabela-estilizada tbody tr:last-of-type{
+    border-bottom: 2px solid #009879;
+ }
+
+ /* Estilização do Rodapé*/
+ .tabela-estilizada tfoot{
+    background-color: #e6f5f2;
+    color: #009879;
+ }
+ /*deixar texto do rodapé alinha à direita*/
+ .texto-direita{
+    text-align: right;
+ }

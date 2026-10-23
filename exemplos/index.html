@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+        }
+
+        body{
+            font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        .cartao{
+            background-color: white;
+            width: 300px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .cartao h2{
+            color: #333;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .cartao p {
+            color: #666;
+            font-size:  1rem;
+            line-height: 1.6;
+            text-align: justify;
+        }
+        .btn{
+            display: block; /* Transforma o link/a em bloco para ocupar largura */
+            background-color: #007BFF;
+            color: #FFF;
+            text-align: center;
+            padding: 10px;
+            margin-top: 15px;
+            border-radius: 10px;
+            text-decoration: none; /* remove sublinhado */
+            font-weight: bold;
+            transition: background 0.3s; /* Efeito suave ao passar o mouse*/
+        }
+        .btn:hover {
+            background-color: #0056B3;
+        }
+    </style>
+</head>
+<body>
+    <div class="cartao">
+        <h2>Bem-vindo ao CSS3</h2>
+
+        <p>Agora entendemos que tudo é uma caixa.
+            O padding cria o espaço interno, a borda define o limite
+            e a margem separa este card dos outros elementos.
+        </p>
+        <a href="#" class="btn">saiba mais</a>
+    </div>
+</body>
+</html>

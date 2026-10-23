@@ -1,0 +1,12 @@
+.cartao {
+    width: 250px;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px auto; /*"auto" nas laterais centraliza a caixa na tela*/
+
+    /* Novas propriedades*/
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px white;
+}
